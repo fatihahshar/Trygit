@@ -9,7 +9,7 @@
                 class="block w-full border-gray-100 focus:border-indigo-100 focus:ring focus:ring-indigo-100 focus:ring-opacity-50 rounded-md shadow-sm"
             >{{ old('memo') }}</textarea>
             <x-input-error :messages="$errors->get('memo')" class="mt-2" />
-            <x-primary-button class="mt-3">{{ __('Submit') }}</x-primary-button>
+            <x-primary-button class="mt-3">{{ __('Hantar') }}</x-primary-button>
         </form>
         <div class="mt-6 bg-white shadow-sm rounded-lg divide-y">
             @foreach ($memos as $memo)
